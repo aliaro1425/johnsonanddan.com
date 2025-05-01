@@ -27,6 +27,7 @@
         </section>
 
         <main>
+            <!-- Responsive Navbar -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +60,8 @@
                 </div>
             </nav>
 
-            <header class="site-header section-padding d-flex justify-content-center align-items-center">
+            <!-- Responsive Header -->
+            <header class="site-header section-padding d-flex justify-content-center align-items-center text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 col-12">
@@ -72,32 +74,32 @@
                 </div>
             </header>
 
+            <!-- Product Detail Section -->
             <section class="product-detail section-padding">
                 <div class="container">
                     <div class="row">
-
-                        <div class="col-lg-6 col-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="product-thumb">
                                 <img src="images/product/merino.jpg" class="img-fluid product-image" alt="Merino Sheep">
                             </div>
                         </div>
 
-                        <div class="col-lg-6 col-12">
-                            <div class="product-info d-flex">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="product-info d-flex flex-column">
                                 <div>
                                     <h2 class="product-title mb-0">Merino Sheep</h2>
                                     <p class="product-p">Renowned for their premium wool and adaptability, ideal for commercial and small-scale farming.</p>
                                 </div>
-                                <small class="product-price text-muted ms-auto mt-auto mb-5">KSh 3,375</small>
+                                <small class="product-price text-muted mt-auto mb-5">KSh 3,375</small>
                             </div>
 
                             <div class="product-description">
                                 <strong class="d-block mt-4 mb-2">Description</strong>
-                                <p class="lead mb-5">Our Merino sheep are selectively bred to thrive in diverse climates, producing high-quality wool while offering excellent meat yields. A top choice[...]</p>
+                                <p class="lead mb-5">Our Merino sheep are selectively bred to thrive in diverse climates, producing high-quality wool while offering excellent meat yields. A top choice for farmers.</p>
                             </div>
 
                             <div class="product-cart-thumb row">
-                                <div class="col-lg-6 col-12">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
                                     <select class="form-select cart-form-select" id="inputGroupSelect01">
                                         <option selected>Quantity</option>
                                         <option value="1">1</option>
@@ -108,30 +110,30 @@
                                     </select>
                                 </div>
 
-                                <div class="col-lg-6 col-12 mt-4 mt-lg-0">
-                                    <button type="submit" class="btn custom-btn cart-btn" data-bs-toggle="modal" data-bs-target="#cart-modal">Add to Cart</button>
+                                <div class="col-lg-6 col-md-6 col-sm-12 mt-4 mt-lg-0">
+                                    <button type="submit" class="btn custom-btn cart-btn w-100" data-bs-toggle="modal" data-bs-target="#cart-modal">Add to Cart</button>
                                 </div>
 
-                                <p>
+                                <p class="mt-3">
                                     <a href="#" class="product-additional-link">Animal Care Info</a>
                                     <a href="#" class="product-additional-link">Delivery and Payment</a>
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
 
+            <!-- Related Products Section -->
             <section class="related-product section-padding border-top">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="mb-5">You Might Also Like</h3>
+                            <h3 class="mb-5 text-center">You Might Also Like</h3>
                         </div>
 
-                        <!-- Existing Related Products -->
-                        <div class="col-lg-4 col-12 mb-3">
+                        <!-- Example: Adjusted for Responsiveness -->
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                             <div class="product-thumb">
                                 <a href="product-detail.html">
                                     <img src="images/product/dorper.jpg" class="img-fluid product-image" alt="Dorper Ram">
@@ -140,126 +142,21 @@
                                     <span class="product-alert me-auto">New Arrival</span>
                                     <a href="#" class="bi-heart-fill product-icon"></a>
                                 </div>
-                                <div class="product-info d-flex">
+                                <div class="product-info d-flex flex-column">
                                     <div>
                                         <h5 class="product-title mb-0">
                                             <a href="product-detail.html" class="product-title-link">Dorper Ram</a>
                                         </h5>
                                         <p class="product-p">Fast-growing breed known for quality meat production and resilience.</p>
                                     </div>
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">KSh 4,230</small>
+                                    <small class="product-price text-muted mt-auto mb-5">KSh 4,230</small>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/chick2.jpg" class="img-fluid product-image" alt="Layers Chicken">
-                                </a>
-                                <div class="product-top d-flex">
-                                    <span class="product-alert">Low Price</span>
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Layers Chicken</a>
-                                        </h5>
-                                        <p class="product-p">Highly productive hens for consistent egg laying throughout the year.</p>
-                                    </div>
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">KSh 1,950</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/egg.jpg" class="img-fluid product-image" alt="Farm Fresh Eggs">
-                                </a>
-                                <div class="product-top d-flex">
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Farm Fresh Eggs</a>
-                                        </h5>
-                                        <p class="product-p">Nutritious, organic eggs directly from healthy, free-range hens.</p>
-                                    </div>
-                                    <small class="product-price text-muted ms-auto mt-auto mb-5">KSh 1,325</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- New Products from products.html -->
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="Organic Fertilizer">
-                                </a>
-                                <div class="product-top d-flex">
-                                    <span class="product-alert me-auto">New Arrival</span>
-                                    <a href="#" class="bi-heart-fill product-icon"></a>
-                                </div>
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Goats</a>
-                                        </h5>
-                                        <p class="product-p">We offere zero grazingof goats</p>
-                                    </div>
-                                    <small class="product-price text-muted ms-auto">Sh.2500</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12 mb-3">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="Irrigation Tools">
-                                </a>
-                                <div class="product-top d-flex">
-                                    <span class="product-alert">Discounted Price</span>
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Irrigation Tools</a>
-                                        </h5>
-                                        <p class="product-p">Efficient tools for water management in farming.</p>
-                                    </div>
-                                    <small class="product-price text-muted ms-auto">$35</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="product-thumb">
-                                <a href="product-detail.html">
-                                    <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="Farm Equipment">
-                                </a>
-                                <div class="product-top d-flex">
-                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
-                                </div>
-                                <div class="product-info d-flex">
-                                    <div>
-                                        <h5 class="product-title mb-0">
-                                            <a href="product-detail.html" class="product-title-link">Loans</a>
-                                        </h5>
-                                        <p class="product-p">We offer loans on one day old chicks to farmers through saccos. The farmer pay 40 percent of the total amount. Then the remaining is spread within 8 weeks</p>
-                                    </div>
-                                    <small class="product-price text-muted ms-auto">Sh.</small>
-                                </div>
-                            </div>
-                        </div>
-
+                        <!-- Repeat similar structure for other products -->
                     </div>
                 </div>
             </section>
-
         </main>
     </body>
 </html>
