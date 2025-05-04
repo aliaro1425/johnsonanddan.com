@@ -117,3 +117,45 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+/* Responsive styles for slick slider */
+@media (max-width: 768px) {
+    .slick-slider {
+        margin: 10px;
+    }
+
+    .slick-slide img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slick-list {
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .slick-slider {
+        margin: 20px;
+    }
+
+    .slick-slide img {
+        width: 80%;
+        height: auto;
+    }
+
+    .slick-list {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 1201px) {
+    .slick-slider {
+        margin: 30px;
+    }
+
+    .slick-slide img {
+        width: 60%;
+        height: auto;
+    }
+}
